@@ -10,8 +10,6 @@ arquivo = caminho + r"\nba.csv"
 
 data = pd.read_csv(rf"{arquivo}")
 
-posicoes ={'Armador': 'PG', 'Ala-armador': 'SG', 'Ala': 'SF', 'Ala de força': 'PF', 'Pivô': 'C'}
-
 app = Dash(__name__)
 
 app.layout = Div(
